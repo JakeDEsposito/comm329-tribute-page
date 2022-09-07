@@ -1,0 +1,8 @@
+{
+  "short_name": "Tribute Page",
+  "name": "COMM 329 Tribute Page Assignment",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
