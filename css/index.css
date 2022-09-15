@@ -15,6 +15,25 @@ body {
     background-color: var(--background-color-primary);
 }
 
+/* Navigation */
+
+nav {
+    color: white;
+    padding-top: 1mm;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+}
+
 /* Main Proposition */
 .MainProposition {
     position: relative;
@@ -22,7 +41,8 @@ body {
 }
 
 .MainProposition img {
-    padding: 1rem 0;
+    padding-bottom: 1rem;
+    padding-top: 1mm;
     width: 100%;
     height: 20rem;
     object-fit: cover;
